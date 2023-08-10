@@ -1,15 +1,23 @@
 import { useState } from "react";
-
+import { Routes, Route, Outlet, Link } from "react-router-dom";
 
 import Hero from './Components/Hero'
 import NavBar from './Components/NavBar'
+import Cards from "./Components/Cards";
+import  Test from "./Components/Test";
 function App() {
-  const [count, setCount] = useState(0);
+
+
 
   return (
     <>
       <NavBar></NavBar>
-      <Hero></Hero>
+       <Routes>
+      
+          <Route path="/" element={ <div><Hero></Hero> <Cards></Cards></div>} />
+          <Route path="/test" element={<Test />} />
+
+        </Routes>
     </>
   );
 }
