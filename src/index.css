@@ -89,36 +89,39 @@ body {
   width: 340px;
   padding: 25px 15px;
   border-radius: 60px;
-  color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0,);
 }
 
 .hero-card-outter-div-1-bg {
-  background: #82ffff;
-  background: radial-gradient(at center, #82ffff91, #ebb9ffc4);
+  /* background: #82ffff; */
+  /* opacity: 0.7; */
+  background: radial-gradient(at left , #82ffff91, #ebb9ffc4);
 }
 
 .hero-card-outter-div-2-bg {
-  background: #ff99e4;
-  background: radial-gradient(at center, #0acceaca, #5ed6ee31);
+  /* background: #ff99e4; */
+  background: radial-gradient(at bottom, #0acceaca, #5ed6ee31);
 }
 
 .hero-card-outter-div-3-bg {
-  background: #fff19965;
-  background: radial-gradient(at center, #fff19976, #ffaad2c1);
+  /* background: #fff19965; */
+  background: radial-gradient(at top, #fff19976, #ffaad2c1);
 }
 
 .hero-card-outter-div-4-bg {
-  background: #fff199;
+  /* background: #fff199; */
   background: radial-gradient(at center, #ff999982, #e6ffaa7d);
 }
 
 .hero-card-img-1 {
   width: 280px;
+  /* opacity: 1; */
   height: 180px;
 }
 
 .hero-card-title-1 {
   font-size: 26px;
+  
   font-weight: bold;
 }
 
